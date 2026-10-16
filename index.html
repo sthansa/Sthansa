@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suthansa Gading Prasetyo — Teknik Informatika & Full Stack Developer</title>
+  <meta name="description" content="Portofolio Suthansa Gading Prasetyo, lulusan Teknik Informatika dan Full Stack Developer dengan pengalaman Laravel, PHP, MySQL, HTML, dan CSS.">
+
+  <!-- Google Fonts: Instrument Serif + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=3.0">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#" class="brand-signature">
+        <img src="assets/images/logo.png" alt="Logo Suthansa Gading Prasetyo" class="brand-logo">
+        <div class="brand-titles">
+        <span class="brand-name">Suthansa Gading Prasetyo</span>
+        <span class="brand-role">Teknik Informatika & Full Stack Dev</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="mainNavigation" aria-label="Navigasi Utama">
+        <a href="#project" class="nav-link">Project</a>
+        <a href="#tentang" class="nav-link">Tentang Saya</a>
+        <a href="#skill" class="nav-link">Skill</a>
+        <a href="#pengalaman" class="nav-link">Pengalaman Kerja</a>
+        <a href="#sertifikasi" class="nav-link">Sertifikasi</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="header-utilities">
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti mode visual terang/gelap" title="Ganti Tema">
+          <span class="theme-icon sun-icon">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+          <span class="theme-text" id="themeText">Terang</span>
+        </button>
+
+        <a href="#kontak" class="btn btn-editorial">
+          <span>Hubungi Saya</span>
+          <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M3 13L13 3M13 3H5M13 3V11"></path>
+          </svg>
+        </a>
+      </div>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mainNavigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Teknik Informatika Focus) -->
+    <section class="hero-editorial">
+      <div class="container">
+
+        <div class="hero-grid-sub">
+          <div class="hero-statement">
+            <h1 class="hero-title">
+              Fresh graduate Teknik Informatika yang tertarik pada <span class="serif-accent">pengembangan aplikasi web</span>.
+            </h1>
+            <p class="hero-lead">
+              Saya Suthansa Gading Prasetyo, lulusan Teknik Informatika yang berfokus pada pengembangan aplikasi web frontend dan backend. Berpengalaman mengembangkan sistem absensi berbasis GPS dan selfie serta aplikasi ujian sekolah dengan fitur anti kecurangan.
+            </p>
+            <div class="hero-action-group">
+              <a href="#project" class="btn btn-primary">
+                <span>Lihat Project Unggulan</span>
+                <span class="btn-arrow">↓</span>
+              </a>
+              <button class="btn btn-secondary" id="copyEmailHero" data-email="Suthansagading13@gmail.com" title="Salin email langsung">
+                <svg viewBox="0 0 24 24" width="15" height="15" stroke="currentColor" fill="none" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Salin Suthansagading13@gmail.com</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-image-frame">
+            <img src="assets/images/profile.jpg" alt="Potret Suthansa Gading Prasetyo" class="hero-image">
+            <span class="hero-image-caption">Full Stack Developer · 2026</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 1: PROJECT -->
+    <section class="section works-section" id="project">
+      <div class="container">
+        
+        <div class="section-header-editorial">
+          <div class="header-titles">
+            <h2 class="section-main-title">Project</h2>
+            <p class="section-subtext">Implementasi aplikasi web, arsitektur backend, sistem analitik data, dan perancangan antarmuka pengguna.</p>
+          </div>
+
+        </div>
+
+        <div class="works-bento-grid" id="worksGridView">
+          
+          <!-- Project 1: Flagship Web Application -->
+          <article class="bento-card" data-project="aesthetica">
+            <div class="bento-image-container">
+              <img src="assets/images/project-1.jpg" alt="Template visual project aplikasi absensi" class="bento-img" loading="lazy">
+              <div class="image-overlay-badge">
+                <span class="pill-year">2025</span>
+              </div>
+            </div>
+            
+            <div class="bento-content">
+              <div class="bento-meta-bar">
+                <span class="bento-category">Full-Stack Web App</span>
+                <span class="bento-client">Luminous Creation</span>
+              </div>
+              <h3 class="bento-title">Aplikasi Absensi Karyawan — GPS & Selfie</h3>
+              <p class="bento-summary">
+                Mengembangkan sistem absensi karyawan berbasis website dengan fitur GPS dan selfie, mulai dari frontend, backend, database, hingga integrasi sistem dan pengelolaan permohonan izin.
+              </p>
+              
+              <div class="bento-highlights">
+                <div class="highlight-chip">
+                  <strong>GPS</strong>
+                  <span>Validasi lokasi absensi</span>
+                </div>
+                <div class="highlight-chip">
+                  <strong>Selfie</strong>
+                  <span>Verifikasi kehadiran</span>
+                </div>
+                <div class="highlight-chip">
+                  <strong>Full</strong>
+                  <span>Frontend hingga database</span>
+                </div>
+              </div>
+
+              <div class="bento-footer">
+                <div class="tech-stack-row">
+                  <span class="tech-pill">HTML & CSS</span>
+                  <span class="tech-pill">PHP / Laravel</span>
+                  <span class="tech-pill">MySQL</span>
+                  <span class="tech-pill">GPS</span>
+                  <span class="tech-pill">Selfie</span>
+                </div>
+                <button class="case-study-trigger" data-modal="modal-aesthetica">
+                  <span>Lihat Detail Project</span>
+                  <span class="arrow-ico">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Spatial OS Monitoring System -->
+          <article class="bento-card half-card" data-project="spatial">
+            <div class="bento-image-container">
+              <img src="assets/images/project-2.jpg" alt="Aplikasi ujian sekolah berbasis web" class="bento-img" loading="lazy">
+              <div class="image-overlay-badge">
+                <span class="pill-year">2025 — 2026</span>
+              </div>
+            </div>
+            <div class="bento-content">
+              <div class="bento-meta-bar">
+                <span class="bento-category">Web Application</span>
+                <span class="bento-client">Yayasan Pendidikan Muara Ilmu</span>
+              </div>
+              <h3 class="bento-title">Aplikasi Ujian Sekolah — Sistem Anti Kecurangan</h3>
+              <p class="bento-summary">
+                Mengembangkan aplikasi ujian sekolah berbasis web dengan Randomization Algorithm dan Browser Lockdown untuk membantu menjaga proses ujian tetap aman dan terarah.
+              </p>
+              <div class="bento-footer">
+                <div class="tech-stack-row">
+                  <span class="tech-pill">PHP</span>
+                  <span class="tech-pill">Laravel</span>
+                  <span class="tech-pill">MySQL</span>
+                  <span class="tech-pill">Randomization</span>
+                  <span class="tech-pill">Browser Lockdown</span>
+                </div>
+                <button class="case-study-trigger" data-modal="modal-spatial">
+                  <span>Lihat Detail Project</span>
+                  <span class="arrow-ico">→</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 2: TENTANG SAYA -->
+    <section class="section about-editorial-section" id="tentang">
+      <div class="container">
+        
+        <div class="about-grid">
+          
+          <div class="about-visual-column">
+            <div class="archival-portrait-frame">
+              <img src="assets/images/profile.jpg" alt="Suthansa Gading Prasetyo" class="portrait-image">
+            </div>
+          </div>
+
+          <div class="about-narrative-column">
+            <h2 class="section-main-title">Tentang Saya</h2>
+            
+            <div class="bio-paragraphs">
+              <p>
+                Saya lulusan S1 Teknik Informatika Universitas Pamulang yang memiliki kemampuan di bidang pemrograman dan desain. Saya terbiasa mengembangkan aplikasi web pada sisi frontend maupun backend menggunakan PHP dan Laravel.
+              </p>
+              <p>
+                Selama perkuliahan dan pengalaman profesional, saya mengembangkan aplikasi absensi berbasis selfie dan GPS serta aplikasi ujian sekolah dengan fitur anti kecurangan melalui Randomization Algorithm dan Browser Lockdown.
+              </p>
+              <p>
+                Saya mampu bekerja secara individu maupun dalam tim, mulai dari perencanaan sistem, pengembangan frontend dan backend, pengelolaan database, integrasi fitur, pengujian, hingga debugging.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILL -->
+    <section class="section manifesto-section" id="skill">
+      <div class="container">
+        <div class="manifesto-intro">
+          <h2 class="section-main-title">Skill & Keahlian Teknis</h2>
+          <p class="section-subtext">Kumpulan bahasa pemrograman, framework, basis data, dan konsep informatika yang saya kuasai.</p>
+        </div>
+
+        <div class="skill-showcase" data-skill-carousel>
+          <button class="skill-nav skill-nav-prev" type="button" data-skill-prev aria-label="Skill sebelumnya">←</button>
+          <div class="skill-stage">
+            <div class="skill-track">
+              <article class="skill-slide" data-skill-slide>
+                <div class="skill-orb skill-orb-code"><span>JS</span></div>
+                <div class="skill-slide-info">
+                  <span class="comp-category">01 · Frontend</span>
+                    <h3>Web yang responsif</h3>
+                    <p>Mengembangkan tampilan web yang rapi, responsif, dan mudah digunakan sesuai kebutuhan pengguna.</p>
+                    <span class="skill-tags">HTML · CSS</span>
+                </div>
+              </article>
+              <article class="skill-slide" data-skill-slide>
+                <div class="skill-orb skill-orb-web"><span>&lt;/&gt;</span></div>
+                <div class="skill-slide-info">
+                  <span class="comp-category">02 · Backend</span>
+                    <h3>Logika aplikasi yang kuat</h3>
+                    <p>Membangun alur backend yang terintegrasi dengan database untuk mendukung aplikasi web yang fungsional.</p>
+                    <span class="skill-tags">PHP · Laravel</span>
+                </div>
+              </article>
+              <article class="skill-slide" data-skill-slide>
+                <div class="skill-orb skill-orb-data"><span>DB</span></div>
+                <div class="skill-slide-info">
+                  <span class="comp-category">03 · Basis Data</span>
+                    <h3>Data yang terkelola</h3>
+                    <p>Mengelola data aplikasi secara terstruktur agar proses pencatatan, pencarian, dan pengolahan berjalan efektif.</p>
+                    <span class="skill-tags">MySQL</span>
+                </div>
+              </article>
+              <article class="skill-slide" data-skill-slide>
+                <div class="skill-orb skill-orb-tools"><span>GIT</span></div>
+                <div class="skill-slide-info">
+                  <span class="comp-category">04 · Version Control</span>
+                    <h3>Kolaborasi terarah</h3>
+                    <p>Menggunakan version control untuk menjaga perubahan kode tetap terdokumentasi dan mudah dikerjakan bersama tim.</p>
+                    <span class="skill-tags">GitHub</span>
+                </div>
+              </article>
+            </div>
+          </div>
+          <button class="skill-nav skill-nav-next" type="button" data-skill-next aria-label="Skill berikutnya">→</button>
+          <div class="skill-dots" aria-label="Navigasi skill">
+            <button type="button" class="skill-dot active" data-skill-dot="0" aria-label="Tampilkan skill 1"></button>
+            <button type="button" class="skill-dot" data-skill-dot="1" aria-label="Tampilkan skill 2"></button>
+            <button type="button" class="skill-dot" data-skill-dot="2" aria-label="Tampilkan skill 3"></button>
+            <button type="button" class="skill-dot" data-skill-dot="3" aria-label="Tampilkan skill 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: PENGALAMAN KERJA -->
+    <section class="section experience-section" id="pengalaman">
+      <div class="container">
+        
+        <div class="section-header-editorial">
+          <div class="header-titles">
+            <h2 class="section-main-title">Pengalaman Kerja</h2>
+            <p class="section-subtext">Riwayat kontribusi profesional, magang software engineering, dan proyek kolaboratif.</p>
+          </div>
+        </div>
+
+        <div class="chronology-list">
+          
+          <article class="timeline-row">
+            <div class="timeline-period">
+              <span class="period-badge">Nov 2025 — Mar 2026</span>
+              <span class="period-loc">SMK Muara Ilmu</span>
+            </div>
+            <div class="timeline-role">
+              <h3 class="role-title">Full Stack Developer</h3>
+              <span class="role-org">Yayasan Pendidikan Muara Ilmu</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Mengembangkan aplikasi ujian sekolah berbasis web dengan fitur anti kecurangan menggunakan Randomization Algorithm dan Browser Lockdown. Menangani perencanaan sistem, frontend, backend, database, integrasi fitur, pengujian, dan debugging.
+              </p>
+              <div class="timeline-tags">
+                <span>PHP</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+                <span>Anti-Cheating System</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-row">
+            <div class="timeline-period">
+              <span class="period-badge">Mar 2025 — Jun 2025</span>
+              <span class="period-loc">Luminous Creation</span>
+            </div>
+            <div class="timeline-role">
+              <h3 class="role-title">Full Stack Developer</h3>
+              <span class="role-org">Luminous Creation</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Berkolaborasi dalam pengembangan sistem absensi karyawan berbasis website dengan fitur GPS dan selfie. Mengerjakan frontend, backend, database, integrasi sistem, pengujian, evaluasi, serta pengelolaan data absensi dan permohonan izin.
+              </p>
+              <div class="timeline-tags">
+                <span>HTML & CSS</span>
+                <span>PHP & Laravel</span>
+                <span>MySQL</span>
+                <span>GPS & Selfie</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: SERTIFIKASI & PELATIHAN -->
+    <section class="section certificates-section" id="sertifikasi">
+      <div class="container">
+        <div class="section-header-editorial">
+          <div class="header-titles">
+            <h2 class="section-main-title">Sertifikasi & Pelatihan</h2>
+            <p class="section-subtext">Sertifikat yang mendukung pembelajaran dan pengembangan kemampuan saya.</p>
+          </div>
+        </div>
+
+        <div class="certificates-grid">
+          <article class="certificate-card">
+            <div class="certificate-icon" aria-hidden="true">01</div>
+            <div class="certificate-content">
+              <span class="certificate-type">Sertifikasi</span>
+              <h3>Network Administrator</h3>
+              <p class="certificate-issuer">LSP Universitas Pamulang</p>
+              <span class="certificate-period">Diterbitkan: Februari 2026 · Berlaku sampai: Februari 2028</span>
+              <a class="certificate-link" href="assets/certificates/network-administrator.pdf" target="_blank" rel="noopener">
+                <span>Buka dokumen</span><span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <div class="certificate-icon" aria-hidden="true">02</div>
+            <div class="certificate-content">
+              <span class="certificate-type">Sertifikasi</span>
+              <h3>TOEFL Prediction Test</h3>
+              <p class="certificate-issuer">Lembaga Bahasa Universitas Pamulang · Skor 400</p>
+              <span class="certificate-period">Diterbitkan: Juni 2025 · Berlaku sampai: Juli 2027</span>
+              <a class="certificate-link" href="assets/certificates/toefl-prediction-test.pdf" target="_blank" rel="noopener">
+                <span>Buka dokumen</span><span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <div class="certificate-icon" aria-hidden="true">03</div>
+            <div class="certificate-content">
+              <span class="certificate-type">Pelatihan</span>
+              <h3>Short Course Program</h3>
+              <p class="certificate-issuer">Teknologi Informasi dan Komunikasi · Program Studi Teknik Informatika Universitas Pamulang</p>
+              <span class="certificate-period">Januari 2026</span>
+              <a class="certificate-link" href="assets/certificates/short-course-program.pdf" target="_blank" rel="noopener">
+                <span>Buka dokumen</span><span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="certificate-card">
+            <div class="certificate-icon" aria-hidden="true">04</div>
+            <div class="certificate-content">
+              <span class="certificate-type">Pelatihan</span>
+              <h3>Workshop Praktis: Membuat Chatbot Telegram yang Menarik</h3>
+              <p class="certificate-issuer">Teknologi Informasi dan Komunikasi · Program Studi Teknik Informatika Universitas Pamulang</p>
+              <span class="certificate-period">Desember 2024</span>
+              <a class="certificate-link" href="assets/certificates/workshop-chatbot-telegram.pdf" target="_blank" rel="noopener">
+                <span>Buka dokumen</span><span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: KONTAK -->
+    <section class="section contact-editorial-section" id="kontak">
+      <div class="container">
+        
+        <div class="contact-split-card">
+          
+          <div class="contact-editorial-left">
+            <h2 class="contact-main-heading">Mari Berdiskusi</h2>
+            
+            <p class="contact-desc">
+              Tertarik merekrut, mengajak berkolaborasi dalam proyek perangkat lunak, atau mendiskusikan peluang kerja seputar Teknik Informatika? Silakan kirim pesan melalui email atau formulir di samping.
+            </p>
+
+            <div class="direct-reach-box">
+              <span class="reach-label">Email Langsung:</span>
+              <div class="reach-interactive">
+                <span id="targetEmail" class="email-display">Suthansagading13@gmail.com</span>
+                <button class="btn-copy-chip" id="copyEmailContact" title="Salin alamat email">
+                  <span id="copyBtnLabel">Salin Email</span>
+                  <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="5" y="5" width="8" height="8" rx="1.5"></rect>
+                    <path d="M3 10V3a1 1 0 0 1 1-1h7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-editorial-right">
+            <form id="studioInquiryForm" class="inquiry-form" novalidate>
+              
+              <div class="form-row-dual">
+                <div class="form-field-block">
+                  <label for="clientName" class="field-label">Nama Anda *</label>
+                  <input type="text" id="clientName" required placeholder="Nama Anda atau Perusahaan" class="field-input">
+                </div>
+
+                <div class="form-field-block">
+                  <label for="clientEmail" class="field-label">Alamat Email *</label>
+                  <input type="email" id="clientEmail" required placeholder="nama@email.com" class="field-input">
+                </div>
+              </div>
+
+              <div class="form-field-block">
+                <label for="clientMessage" class="field-label">Pesan Anda *</label>
+                <textarea id="clientMessage" rows="4" required placeholder="Tuliskan rencana proyek, penawaran kerja, atau hal yang ingin Anda diskusikan..." class="field-input field-textarea"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-editorial-submit" id="submitBtn">
+                <span>Kirim Pesan</span>
+                <span class="btn-arrow">→</span>
+              </button>
+
+              <div class="form-notice" id="formNotice" role="status" aria-live="polite">
+                <span class="notice-check">✓</span>
+                <div>
+                  <strong>Gmail siap mengirim pesan!</strong>
+                  <p>Gmail sudah dibuka dengan pesan yang terisi. Silakan tekan tombol Kirim di Gmail.</p>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Minimal Footer -->
+  <footer class="studio-colophon-footer">
+    <div class="container footer-bottom-bar" style="border-top: none; padding-top: 0;">
+      <p class="copyright-text">
+        &copy; 2026 Suthansa Gading Prasetyo — Teknik Informatika.
+      </p>
+      <a href="#siteHeader" class="back-to-top" id="backToTopBtn">
+        <span>Kembali ke atas</span>
+        <span class="arrow-up">↑</span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Modal / Case Study Drawer Component -->
+  <div class="case-study-drawer" id="caseDrawer" aria-hidden="true" role="dialog">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <div class="drawer-panel">
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Tutup jendela detail project">
+        <span>Tutup</span> ✕
+      </button>
+
+      <div class="drawer-inner" id="drawerContent">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <div class="image-lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-label="Pratinjau gambar project">
+    <div class="lightbox-toolbar">
+      <button type="button" id="lightboxZoomOut" aria-label="Perkecil gambar">−</button>
+      <button type="button" id="lightboxReset" aria-label="Reset ukuran gambar">Reset</button>
+      <button type="button" id="lightboxZoomIn" aria-label="Perbesar gambar">+</button>
+      <button type="button" id="lightboxClose" aria-label="Tutup pratinjau gambar">Tutup ✕</button>
+    </div>
+    <div class="lightbox-stage">
+      <img id="lightboxImage" alt="">
+    </div>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <!-- Toast Notification Pill -->
+  <div id="toastNotification" class="editorial-toast" role="alert" aria-live="polite">
+    <span class="toast-dot"></span>
+    <span id="toastMessage">Tindakan berhasil</span>
+  </div>
+
+  <script src="script.js?v=3.0"></script>
+</body>
+</html>
